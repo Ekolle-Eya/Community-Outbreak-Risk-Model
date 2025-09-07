@@ -59,5 +59,5 @@ Base on the Shap plot and line plots it can be seen that several features (commu
 9. **Amount of drinking water consumed**: Communities where less drinking water is available tends to have a higher risk. This could suggest that in higher-risk communities, access to safe drinking water is limited, leading people to consume less or use unsafe sources.
 
 ### References
-Ekolle Eya
-EKCOLAB Organization
+1) Ekolle Eya
+2) EKCOLAB Organization
