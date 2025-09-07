@@ -33,7 +33,7 @@ Random Forest Regression model was use after considering and experimenting on th
 The training involved spliting the data into training set and test with '70%' of the ovarall data allocated for training and '30%' for testing.
 
 ### Model Evaluation
-Included 4 model evaluation techniques
+Included 5 model evaluation techniques
 1) Root Mean Squared Error (RMSE)
 2) R-squared (R²)
 3) Cross Validation Score (using 5 folds)
@@ -43,7 +43,18 @@ Included 4 model evaluation techniques
 ### Results
 The results of the Random Forest Regression model showed an MSE of 0.0017 and  R-squared of 0.96.The cross validation score produced  R-squared values in 5 folds (0.93508542 0.99649129 0.99790762 0.99816153 0.98188284). With this resutl it is evident that the model can be used in real world applications.
 
-### Recommendations
+### Conclusion
+Base on the Shap plot and line plots it can be seen that several features (community indicators) contributes to determine wether a community is at risk or not. Here, are the following observations and conlutions drawn from this study.
+
+1. **Number of outbreaks**: If a community has already had a alot of outbreaks, it's like a warning sign. The model sees that and says, "Okay, this place is likely to have a higher risk of more outbreaks or health issues."On the flip side, if a community hasn't had many or any outbreaks, the model sees that and understands the risk is lower. So, the history of outbreaks is a major clue to how risky a community is going to be in the future.
+2. **Avg. Toilet-Household (m)**: This is about how far people's homes are from toilets. If this distance is larger, it seems to push the community risk higher. It makes sense – the harder it is to get to a toilet, the more likely sanitation issues could lead to problems.
+3. **Waterborne disease cases**: This is pretty straightforward. If a community has had more cases of diseases spread through water, the model sees that and flags the community as higher risk. Past waterborne diseases are a strong indicator of future risk.
+4. **Number of deaths**: Similar to outbreaks and disease cases, if there have been more deaths, especially likely related to health issues or outbreaks, the model considers the community more risky. Sadly, a higher death count can point to serious underlying health or environmental problems.
+5. **Unapproved waste sites**: If a community has more places where waste is just dumped without proper management, the risk goes up. This is a big one for spreading disease and polluting the environment. More unapproved waste means higher risk.
+6. **Avg. Water-School (m)**: This is the average distance from schools to water sources. If schools are farther away from water, the risk tends to be higher. Easy access to water at schools is important for hygiene and preventing the spread of illness among children.
+7. **Tons of plastic waste**: The amount of plastic waste in a community also plays a role. It looks like more plastic waste is linked to higher risk. This could be because plastic waste pollutes water sources, clogs drainage, and provides breeding grounds for pests.
+8. **Avg. Water-Household (m)**: This is the average distance from homes to water sources. If homes are farther away from water, the risk tends to be higher. Just like with toilets, easy access to clean water at home is crucial for drinking, cooking, and hygiene.
+9. **Amount of drinking water consumed**: This one is a bit interesting. It seems that communities where less drinking water is consumed tend to have a higher risk. This could suggest that in higher-risk communities, access to safe drinking water is limited, leading people to consume less or use unsafe sources.
 
 ### References
 1) EKCOLAB Organizatio
