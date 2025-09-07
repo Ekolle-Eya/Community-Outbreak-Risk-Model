@@ -2,7 +2,7 @@
 This project examines the vulnerabilities of communities based on environmental indicators such as number of plastic wastes, drinking water availability, number of hospitals e.t.c. It examines **27 indicators** that can be used to access community risk level in terms of health, water access and resource availability.The dataset for this model involve 72 communities (records).Temperature and Rainfall features are based on climatic condition of the condation based on monthly avearages.
 
 The model provided a core study on how community indicators can influnce a risk to public health, waterborne disease and lack of basic sanitation and hygiene resources
-1) This model is built to predict Community Outbreak Risksuch as waterborne disease risk, lack of resources and environmental health risk.
+1) This model is built to predict Community Outbreak Risk such as waterborne disease risk, lack of resources and environmental health risk.
 2) The model was trained with real data accross **30 communities in 5 countries in Africa and realistic syntethic data all together making up 72 communities**. 
    
 Note:"Avg_Toilet_School is the average distance of toilet to the schools in the community", "Avg_Toilet_Household is the average distance of toilet to the households in the community","Avg_Toilet_School is the average distance of toilet to the schools in the community"
