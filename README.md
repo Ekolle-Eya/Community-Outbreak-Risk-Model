@@ -12,7 +12,7 @@ Note:"Avg_Toilet_School is the average distance of toilet to the schools in the 
 
 
 ### Data
-The primary data source used for the machine learning algorithm is the 'comdatarisk_data.csv' which contained all detailed information. The dataset highlights the interconnectedness of environmental factors and public health risk. it is therefore, a holistic approach that addresses water quality, sanitation, waste management, and access to resources is essential for effective risk reduction and community well-being.
+The primary data source used for the machine learning algorithm is the **'comdatarisk_data.csv'** which contained all detailed information. The dataset highlights the interconnectedness of environmental factors and public health risk. it is therefore, a holistic approach that addresses water quality, sanitation, waste management, and access to resources is essential for effective risk reduction and community well-being.
 
 ### Tools
 1) Google Colab
