@@ -23,8 +23,8 @@ The primary data source used for the machine learning algorithm is the **'comdat
 The data is clean with no missing values. I clean the data using Excel then use python to perform data inspections and check for correlations and null values to make sure the data is cleaned before proceeding to building the model.
 
 ### Exploratory Data Analysis
-EDA involve exploring the key independent varaible(Temperature and Humidity) which can have possitive correlation  with the dependent variable 'Water Production_Day'.
-Created regression plots of the training data using Matplotlip and Seaborn to evalute linear relationships between variables.
+EDA involve exploring the key independent varaibles which can have possitive correlation  with the dependent variable **'Community outbreak risk'**.
+Created regression plots and line plots of the training data using Matplotlip and Seaborn to evalute the relationships between variables.
 
 ### Machine Learning Algorithms
 Random Forest Regression model was use after considering and experimenting on the performance and accuracy of other models such as multiple linear regression
