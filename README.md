@@ -46,7 +46,7 @@ Included 5 model evaluation techniques
 The results of the Random Forest Regression model showed an MSE of 0.0017 and  R-squared of 0.96.The cross validation score produced  R-squared values in 5 folds (0.93508542 0.99649129 0.99790762 0.99816153 0.98188284). With this resutl it is evident that the model can be used in real world applications.
 
 ### Conclusion
-Base on the Shap plot and line plots it can be seen that several features (community indicators) contributes to determine wether a community is at risk or not. Here, are the following observations and conlutions drawn from this study.
+Base on the Shap plot and line plots it can be seen that several features (community indicators) contributes to determine wether a community is at risk or not. Here, are the following observations and conclusions drawn from this study.
 
 1. **Number of outbreaks**: If a community has already had a alot of outbreaks, it's likely to have a higher risk of more outbreaks or health issues. While, if a community hasn't had many or any outbreak, the risk is lower. So, the history of outbreaks is a major clue to how risky a community is going to be in the future.
 2. **Avg. Toilet-Household (m)**: This is about how far people's homes are from toilets. If this distance is larger, it seems to push the community risk higher. Therefore, the more difficult it is to get to a toilet, the more likely sanitation issues could lead to problems such as open defication and sexual violence on girls expecially during night.
