@@ -1,5 +1,5 @@
 # Community-Outbreak-Risk-Model
-This project examines the vulnerabilities of communities based on environmental, health and water indicators such as number of plastic wastes, drinking water availability, number of hospitals e.t.c. It examines **27 indicators** that can be used to access community risk level in terms of health, water access and resource availability.The dataset for this model involve **72 communities (records)**.Temperature and Rainfall features are based on climatic condition based on monthly avearages.
+This project examines the vulnerabilities of communities based on environmental, health and water indicators such as number of plastic wastes, drinking water availability, number of hospitals e.t.c. It examines **27 indicators** that can be used to access community risk level in terms of health, water access and resource availability.The dataset for this model involve **72 communities (records)**.Temperature and Rainfall features are based on climatic of monthly avearages.
 
 The model provided a core study on how community indicators can influnce a risk to public health, waterborne disease and lack of basic sanitation and hygiene resources
 1) This model is built to predict Community Outbreak Risk such as waterborne disease risk, lack of resources and environmental health risk.
